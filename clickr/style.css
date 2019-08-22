@@ -2,6 +2,11 @@ body{
 	background: #333;
 	margin: 30vh 0 0 0;
 }
+#write{
+	font-family: play;
+	color: white;
+	text-decoration: none;
+}
 #container{
 	display: flex;
 	color: white;
