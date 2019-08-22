@@ -40,3 +40,7 @@ body{
 	display: inline-block;
 	padding-left: 30px;
 }
+#message{
+	font-family: play;
+	font-size: 30px;
+}

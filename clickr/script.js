@@ -46,6 +46,27 @@ function btnclick(){
 counter();
 function counter(){
 if(check2==0){
+	if(count==10){
+		document.getElementById('message').innerHTML = 'гля молодой куда разогнался'
+	}
+	if(count==15){
+		document.getElementById('message').innerHTML = 'молодоой!'
+	}
+	if(count==20){
+		document.getElementById('message').innerHTML = 'ты еще маме нужен'
+	}
+	if(count==30){
+		document.getElementById('message').innerHTML = 'не ну это бан'
+	}
+	if(count==40){
+		document.getElementById('message').innerHTML = 'ой да ты гля как потеет'
+	}
+	if(count==49){
+		document.getElementById('message').innerHTML = 'не ну ты уаще рекорд пабил было же 48'
+	}
+	if(count==60){
+		document.getElementById('message').innerHTML = 'пожалуйста читы выруби или двойной клик я хз что ты там юзаеш'
+	}
 if(count%10==0){
 document.getElementById('counter').innerHTML = 'Всего '+ count +' Кликов';
 count++;
