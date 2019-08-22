@@ -4,6 +4,7 @@ let check2 = 0;
 let restart = 0;
 function restartgame(){
 	restart = 1;
+	document.getElementById('message').innerHTML = '<br>';
 }
 function btnclick(){
 	check++;
