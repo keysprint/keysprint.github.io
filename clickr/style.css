@@ -1,0 +1,42 @@
+body{
+	background: #333;
+	margin: 30vh 0 0 0;
+}
+#container{
+	display: flex;
+	color: white;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding:auto 0;
+}
+#btn{
+	color: white;
+	border: black solid 2px;
+	border-radius: 10px;
+	font-size: 50px;
+	font-family: play;
+	padding: 0 20px 0 20px; 
+	background: #3366FF;
+}
+#text{
+	font-family: play;
+	font-size: 30px;
+}
+.pad{
+	font-size: 30px;
+	font-family: play; 
+	padding: 20px 0 20px 0;
+}
+#restart{
+	font-family: play;
+	font-size: 50px;
+	padding-left:0px;
+}
+#restart:hover{
+	color: silver ;
+}
+#btns{
+	display: inline-block;
+	padding-left: 30px;
+}
