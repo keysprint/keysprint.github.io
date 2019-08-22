@@ -46,8 +46,22 @@ function btnclick(){
 counter();
 function counter(){
 if(check2==0){
+if(count%10==0){
 document.getElementById('counter').innerHTML = 'Всего '+ count +' Кликов';
 count++;
+}else if((count%10==1)&(count>20||count<10)){
+document.getElementById('counter').innerHTML = 'Всего '+ count +' Клик';
+count++;
+}else if((count%10<=4)&(count>20||count<10)){
+document.getElementById('counter').innerHTML = 'Всего '+ count +' Клика';
+count++;
+}else if((count>=10)&(count<=20)){
+document.getElementById('counter').innerHTML = 'Всего '+ count +' Кликов';
+count++;
+}else{
+document.getElementById('counter').innerHTML = 'Всего '+ count +' Кликов';
+count++;
+}
 }
 }
 }
