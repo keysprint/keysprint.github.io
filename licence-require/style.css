@@ -1,0 +1,44 @@
+#container{
+	margin: 0 auto;
+	margin-top: 90px;
+	width: 300px;
+}
+#content{
+	padding-top: 30px;
+	border: 1px solid silver;
+	display: flex;
+	margin-bottom: 20px;
+	border-radius: 0 0 10px 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 100px;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+#tittle{
+	border: 1px solid silver;
+	width: 300px;
+	box-sizing: border-box;
+	display: flex;
+	border-radius: 10px 10px 0 0;
+	padding-left: 7px;
+}
+body{
+	background: black;
+	color: white;
+	font-family: play;
+}
+#checker{
+	display: flex;
+	justify-content: space-between;
+}
+#licence{
+	font-size: 12px;
+}
+#btn{
+	border-radius: 5px;
+	border: none;
+	padding: 0 10px 0 10px;
+	background: silver
+}
