@@ -1,3 +1,9 @@
+@font-face{
+	font-family: play;
+	src:url("../font/play.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
 body{
 	background: #333;
 	margin: 30vh 0 0 0;

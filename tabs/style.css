@@ -35,3 +35,9 @@ body{
 	border-right: 1px solid black;
 	background: #cccccc;
 }
+@font-face{
+	font-family: play;
+	src:url("../font/play.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
