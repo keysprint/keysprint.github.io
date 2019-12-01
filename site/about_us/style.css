@@ -1,0 +1,33 @@
+body{
+	background: black;
+}
+#links li{
+	list-style: none;
+	display: inline-block;
+	border:1px solid black;
+	padding: 10px;
+	border-radius: 15px;
+	background: #138cc3;
+	margin-right:10px; 
+	color: white;
+	font-family:play;
+}
+#header{
+	display: flex;
+	justify-content: space-between;
+	border:1px solid black;
+	background: #404040;
+	border-radius: 15px;
+}
+#content{
+	margin-top: 15px;
+	border:1px solid black;
+	height: 530px;
+	background: #404040;
+	border-radius: 15px;s
+}
+a{
+	list-style: none;
+	text-decoration: none;
+	color: white;
+}
