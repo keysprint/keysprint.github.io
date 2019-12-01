@@ -47,3 +47,14 @@ a{
 	display:block;
 	padding: 20px;
 }
+#number{
+	color: white;
+	font-family: play;
+}
+#flex{
+	display: flex;
+	align-items: center;
+}
+#time{
+	padding-right: 5px;
+}
