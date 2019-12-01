@@ -22,12 +22,28 @@ body{
 #content{
 	margin-top: 15px;
 	border:1px solid black;
-	height: 530px;
 	background: #404040;
-	border-radius: 15px;s
+	border-radius: 15px;
+	padding: 20px;
+	width: inherit;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
 }
 a{
 	list-style: none;
 	text-decoration: none;
 	color: white;
+}
+.imgshop{
+	height:100px;
+}
+.pshop{
+	font-family: play;
+	color: white;
+}
+.item{
+	display:block;
+	padding: 20px;
 }
