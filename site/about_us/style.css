@@ -24,7 +24,8 @@ body{
 	border:1px solid black;
 	height: 530px;
 	background: #404040;
-	border-radius: 15px;s
+	border-radius: 15px;
+	color: white;
 }
 a{
 	list-style: none;
