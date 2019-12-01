@@ -22,10 +22,12 @@ body{
 #content{
 	margin-top: 15px;
 	border:1px solid black;
-	height: 530px;
+	height: 490px;
 	background: #404040;
 	border-radius: 15px;
 	color: white;
+	padding: 20px;
+	font-family: play;
 }
 a{
 	list-style: none;
